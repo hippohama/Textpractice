@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<game>
+    <stage name="start" message="나는 현재 사지방에 있다.">
+        <choice text="생활관으로 내려간다." click="start-a"/>
+        <choice text="코딩 공부를 한다." click="start-b"/>
+        <choice text="탈영을 시도한다." click="start-c"/>
+    </stage>
+
+    <stage name="start-a" message="샐활관에는 동기들이 자고 있다.">
+        <choice text="양치질을 한다." click=""/>
+        <choice text="그대로 잔다." click=""/>
+        <choice text="행정반에 가 본다." click=""/>
+    </stage>
+
+    <stage name="start-b" message="코딩공부를 2시간 동안했다. 지식이 좀 는 거 같다.">
+        <choice text="생활관으로 내려간다." click=""/>
+        <choice text="사지방에서 존버한다." click=""/>
+        <choice text="행정반으로 간다." click=""/>
+    </stage>
+
+    <stage name="start-c" message="나는 탈영을 하기로 결심했다. 어떻게 해야 할까.">
+        <choice text="무기를 챙긴다." click=""/>
+        <choice text="최대한 빨리 담장을 넘는다." click=""/>
+        <choice text="당직 사령을 동료로 섭외한다." click=""/>
+    </stage>
+</game>
